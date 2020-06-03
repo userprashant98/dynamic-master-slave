@@ -6,7 +6,7 @@ RUN yum install php -y
 
 RUN yum install /sbin/service -y
 
-COPY mysite/ /var/www/html
+COPY mysite.html /var/www/html
 
 EXPOSE 80
 
